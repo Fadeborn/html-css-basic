@@ -1,12 +1,43 @@
 <style>
   button {
-    background-color: red;
+    cursor: pointer;
+    margin-right: 12px;
+  }
+
+  .subscribe-button {
+    background-color: rgb(204, 0, 0);
     color: white;
     border: none;
-    padding: 10px 20px;
+    border-radius: 2px;
+    padding: 10px 16px;
+  }
+
+  .join-button{
+    background-color: white;
+    color: rgb(6, 95, 212);
+    border: 1px solid rgb(6, 95, 212);
+    padding: 9px 15px;
+  }
+
+  .tweet-button {
+    font-size: 15px;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    padding: 7px 16px;
+    border: none;
+    font-weight: bold;
+    border-radius: 50px;
   }
 </style>
 
-<button>
+<button class="subscribe-button">
   SUBSCRIBE
+</button>
+
+<button class="join-button">
+  JOIN
+</button>
+
+<button class="tweet-button">
+  Tweet
 </button>
