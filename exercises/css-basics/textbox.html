@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Textbox</title>
+
+    <style>
+      input {
+        margin-right: 10px;
+      }
+
+      .corners {
+        font-size: 16px;
+        padding: 12px;
+        border-radius: 8px;
+        border-color: rgba(205, 205, 205, 0.3);
+        border-width: thin;
+      }
+
+      .noborder {
+        font-size: 13px;
+        padding: 10px;
+        width: 400px;
+        box-shadow: 0 2px 5px rgba(63, 63, 63, 0.244);
+        border: none;
+        border-radius: 20px;
+      }
+
+      .email {
+        font-size: 12px;
+        color: rgb(127, 126, 126);
+        margin-bottom: 5px;
+      }
+
+      .input-link {
+        width: 270px;
+        height: 20px;
+      }
+
+      .option {
+        font-size: 12px;
+        color: rgb(103, 103, 103);
+        margin-bottom: 13px;
+      }
+
+      .button-join {
+        background-color: rgb(62, 119, 193);
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        padding: 15px 100px;
+        border: none;
+        border-radius: 40px;
+      }
+
+      .text-box {
+        margin: 30px 0;
+        width: 400px;
+        border: 1px solid black;
+      }
+
+      .avatar {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        vertical-align: middle;
+      }
+
+      .input-news {
+        vertical-align: middle;
+        font-size: 16px;
+        color: rgb(195, 195, 195);
+        width: 250px;
+        border: none;
+      }
+
+      .button-tweet {
+        background-color: rgb(76, 155, 211);
+        font-weight: bold;
+        color: white;
+        padding: 7px 15px;
+        border-radius: 15px;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- With rouded corners -->
+    <input class="corners" type="text" placeholder="Search" />
+
+    <!-- With a shadow, and no border-->
+    <input
+      class="noborder"
+      type="text"
+      placeholder="Search Google or type a URL"
+    />
+
+    <!--LinkedIn signup-->
+    <p class="email">Email</p>
+    <input class="input-link" type="text" />
+    <p class="option">
+      By clicking Agree & Join, you agree to this Privacy Policy.
+    </p>
+    <button class="button-join">Agree & Join</button>
+
+    <!--Twitter text box-->
+    <div class="text-box">
+      <img class="avatar" src="images/boy-with-cat.jpg" alt="icon" />
+      <input class="input-news" type="text" placeholder="What's happening?" />
+      <button class="button-tweet">Tweet</button>
+    </div>
+  </body>
+</html>
