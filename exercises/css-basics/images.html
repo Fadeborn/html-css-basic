@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Image Practice</title>
+    <style>
+      body {
+        background-color: black;
+      }
+
+      img {
+        margin-right: 20px;
+      }
+
+      .corners {
+        width: 200px;
+        border-radius: 20px;
+      }
+
+      .square {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+        margin: 20px;
+      }
+
+      .circle {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+        margin: 20px 20px 50px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="corners" src="images/boy-with-cat.jpg" alt="boy" />
+    <img class="square" src="images/boy-with-cat.jpg" alt="boy" />
+    <img class="circle" src="images/boy-with-cat.jpg" alt="boy" />
+  </body>
+</html>
