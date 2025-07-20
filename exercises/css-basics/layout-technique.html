@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nasted Layout Technique</title>
+    <style>
+      p {
+        margin-top: 0;
+        margin-bottom: 3px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .account {
+        display: inline-block;
+        margin: 15px;
+        padding-top: 4px;
+        box-shadow: 0 2px 5px rgba(28, 28, 28, 0.3);
+        border-radius: 10px;
+        background-color: aliceblue;
+      }
+
+      .avatar {
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        margin-left: 10px;
+      }
+
+      .icon {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+      }
+
+      .about {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 12px;
+        padding-right: 100px;
+      }
+
+      .name {
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+      .type,
+      .famous {
+        color: gray;
+      }
+
+      .button {
+        display: inline-block;
+        vertical-align: top;
+      }
+
+      .button-follow {
+        font-size: 16px;
+        font-weight: 600;
+        background-color: rgb(73, 155, 249);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 18px;
+        margin-top: 11px;
+        margin-right: 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="account">
+      <div class="avatar">
+        <img class="icon" src="images/boy-with-cat.jpg" alt="boy with cat" />
+      </div>
+      <div class="about">
+        <p class="name">oliver</p>
+        <p class="type">the boy</p>
+        <p class="famous">Popular</p>
+      </div>
+      <div class="button">
+        <button class="button-follow">Follow</button>
+      </div>
+    </div>
+
+    <div class="account">
+      <div class="avatar">
+        <img class="icon" src="images/boy-with-cat.jpg" alt="boy with cat" />
+      </div>
+      <div class="about">
+        <p class="name">oliver</p>
+        <p class="type">the boy</p>
+        <p class="famous">Popular</p>
+      </div>
+      <div class="button">
+        <button class="button-follow">Follow</button>
+      </div>
+    </div>
+
+    <div class="account">
+      <div class="avatar">
+        <img class="icon" src="images/boy-with-cat.jpg" alt="boy with cat" />
+      </div>
+      <div class="about">
+        <p class="name">oliver</p>
+        <p class="type">the boy</p>
+        <p class="famous">Popular</p>
+      </div>
+      <div class="button">
+        <button class="button-follow">Follow</button>
+      </div>
+    </div>
+  </body>
+</html>
