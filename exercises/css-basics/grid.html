@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grid Practice</title>
+    <style>
+      .two-columns,
+      .three-columns,
+      .four-columns {
+        display: grid;
+        margin-bottom: 10px;
+      }
+
+      .two-columns {
+        grid-template-columns: 200px 75px;
+      }
+
+      .three-columns {
+        grid-template-columns: 50px 1fr 75px;
+      }
+
+      .four-columns {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="two-columns">
+      <div style="background-color: lightblue">200px</div>
+      <div style="background-color: lightpink">75px</div>
+    </div>
+
+    <div class="three-columns">
+      <div style="background-color: lightblue">col1</div>
+      <div style="background-color: lightpink">col2</div>
+      <div style="background-color: lightblue">col3</div>
+    </div>
+
+    <div class="four-columns">
+      <div style="background-color: lightpink">col1</div>
+      <div style="background-color: lightpink">col2</div>
+      <div style="background-color: lightpink">col3</div>
+      <div style="background-color: lightpink">col4</div>
+      <div style="background-color: lightpink">col1</div>
+      <div style="background-color: lightpink">col2</div>
+      <div style="background-color: lightpink">col3</div>
+      <div style="background-color: lightpink">col4</div>
+    </div>
+  </body>
+</html>
