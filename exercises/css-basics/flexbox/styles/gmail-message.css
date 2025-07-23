@@ -1,0 +1,64 @@
+body {
+  font-family: Roboto, Arial;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+.content {
+  max-width: 330px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 5px rgba(128, 128, 128, 0.45);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.all-inboxes {
+  color: rgb(154, 154, 154);
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.message-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.from {
+  display: flex;
+  justify-content: space-between;
+  max-width: 280px;
+}
+
+.senders-icon {
+  height: 38px;
+  width: 38px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 19px;
+  margin-right: 8px;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.time {
+  color: rgb(154, 154, 154);
+  font-size: 11px;
+}
+
+.topic {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.message-text {
+  color: rgb(154, 154, 154);
+  font-size: 13px;
+}
